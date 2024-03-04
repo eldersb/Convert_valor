@@ -110,27 +110,14 @@ public class ConvertValor extends javax.swing.JFrame {
             txt2.setText(String.valueOf("€$ " + Double.parseDouble(valor)));
             } else if(conversor.getSelectedIndex()== 2){
             txt2.setText(String.valueOf("£$ " + Double.parseDouble(valor))); 
-            }
-
-            
-         
+            }      
 
         // TODO add your handling code here:
     }//GEN-LAST:event_btnOKActionPerformed
 
     private void conversorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_conversorActionPerformed
         
-//        String valor = txtEntrada.getText();
-//        conversor.getSelectedItem();
-//        
-//        if(conversor.getSelectedIndex() == 0){
-//            txt2.setText(String.valueOf("U$ " + Double.parseDouble(valor)));
-//
-//        } else if(conversor.getSelectedIndex() == 1){
-//            txt2.setText(String.valueOf("€$ " + Double.parseDouble(valor)));
-//        } else if(conversor.getSelectedIndex()== 2){
-//            txt2.setText(String.valueOf("£$ " + Double.parseDouble(valor))); 
-//        }
+
 
 // TODO add your handling code here:
     }//GEN-LAST:event_conversorActionPerformed
